@@ -1,0 +1,59 @@
+.category-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    /* color: #333; */
+  }
+  
+  .card {
+    background-color: white !important;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .product-title {
+    top: 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    font-family: "poppins,san-serif";
+    display: block;
+  }
+  .text-secondary:hover{
+color: green !important;
+cursor: pointer;
+  }
+
+  .product-title:hover {
+    color: #ff6600;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  .titletext h2{
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 25px;
+    font-size: 25px;
+    color: rgb(23, 24, 28);
+
+  }
+  .titletext span{
+    color: rgb(64, 145, 114);
+
+  }

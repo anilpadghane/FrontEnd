@@ -1,0 +1,17 @@
+/* Container for the card image to handle overflow */
+.card-blog {
+    overflow: hidden;
+    
+  }
+  
+  /* Transition effect for smooth rotation */
+  .card-img {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate image on hover */
+  .card-img:hover {
+    transform:scale(1.1) rotate(3deg);
+
+  }
+  

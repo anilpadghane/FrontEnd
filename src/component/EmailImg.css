@@ -1,0 +1,18 @@
+.input-with-icon {
+    position: relative;
+    display: inline-block;
+    width: 40%; /* Adjust as needed */
+  }
+  
+  .input-with-icon .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Icon color */
+  }
+  
+  .input-with-icon input {
+    padding-right: 40px; /* Add padding to avoid text overlapping with the icon */
+    width: 100%; /* Make input full width */
+  }

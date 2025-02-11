@@ -1,0 +1,91 @@
+/* Pop-Up Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Dim background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Pop-Up Card */
+  .popup-card {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .popup-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .popup-content h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .popup-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Close Button */
+  .close-popup-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .close-popup-btn:hover {
+    color: #ff5733;
+  }
+  
+  /* Shop Now Button */
+  .shop-now-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

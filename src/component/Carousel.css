@@ -1,0 +1,49 @@
+
+
+.main{
+    border: 1px solid gray;
+    margin-top:  20px;
+    margin-bottom: 20px;
+}  
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    /* background: rgb(238, 236, 236) !important;; */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel-card .img-carouselone{
+    display: block; /* Ensures it's treated as a block element */
+    margin: 10px auto; /* Centers the image horizontally */
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/* Ensure card-body text is centered */
+.carousel-card .card-body {
+    text-align: center;
+}
+
+   
+
+ 
+
+.carousel-card {
+  background: rgb(221, 218, 218) !important;
+}
+  .badge {
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 12px;
+  }
+  

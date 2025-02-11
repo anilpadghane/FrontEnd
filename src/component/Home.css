@@ -1,0 +1,126 @@
+/* Carousel Image Container */
+.carousel-image-container {
+  position: relative;
+}
+
+/* Overlay on Carousel Images */
+.carousel-overlay {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  width: 85%;
+}
+
+/* Shop Now Button */
+.shop-now-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #0e0d0df8;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shop-now-button:hover {
+  background-color: #0f0f0f;
+}
+
+/* Ensure images fit properly */
+img {
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Two Smaller Images */
+.image-container {
+  position: relative;
+}
+
+/* Overlay on Smaller Images */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: green;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(247, 239, 239, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  z-index: 1;
+}
+
+/* Responsive Adjustments */
+
+/* Tablets (768px - 992px) */
+@media (max-width: 992px) {
+  .carousel-overlay {
+      font-size: 18px;
+      padding: 15px;
+  }
+
+  .overlay {
+      font-size: 16px;
+      padding: 10px;
+  }
+
+  .shop-now-button {
+      font-size: 14px;
+      padding: 8px 15px;
+  }
+}
+
+/* Mobile Devices (Below 768px) */
+@media (max-width: 768px) {
+  .carousel-overlay {
+      font-size: 16px;
+      width: 90%;
+      padding: 10px;
+  }
+
+  .overlay {
+      font-size: 14px;
+      padding: 8px;
+      width: 85%;
+  }
+
+  .shop-now-button {
+      font-size: 14px;
+      padding: 7px 12px;
+      width: 100%;
+  }
+}
+
+/* Extra Small Devices (Below 480px) */
+@media (max-width: 480px) {
+  .carousel-overlay {
+      font-size: 14px;
+      padding: 8px;
+      width: 95%;
+  }
+
+  .overlay {
+      font-size: 12px;
+      padding: 5px;
+      width: 90%;
+  }
+
+  .shop-now-button {
+      font-size: 12px;
+      padding: 6px 10px;
+  }
+}
